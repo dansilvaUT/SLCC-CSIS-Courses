@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSIS 1410/A01 Student/A01 Student.iml" filepath="$PROJECT_DIR$/CSIS 1410/A01 Student/A01 Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSIS 1410/A07 List vs Set/A07 List vs Set.iml" filepath="$PROJECT_DIR$/CSIS 1410/A07 List vs Set/A07 List vs Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSIS 1410/A08 Rock Paper Scissors/A08 Rock Paper Scissors.iml" filepath="$PROJECT_DIR$/CSIS 1410/A08 Rock Paper Scissors/A08 Rock Paper Scissors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSIS 2420/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/CSIS 2420/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSIS 1410/Lab File/Lab File.iml" filepath="$PROJECT_DIR$/CSIS 1410/Lab File/Lab File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSIS 1410/Lab Key Value Pair/Lab Key Value Pair.iml" filepath="$PROJECT_DIR$/CSIS 1410/Lab Key Value Pair/Lab Key Value Pair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSIS 1410/Lab Serialization/Lab Serialization.iml" filepath="$PROJECT_DIR$/CSIS 1410/Lab Serialization/Lab Serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SLCC-CSIS-Courses.iml" filepath="$PROJECT_DIR$/SLCC-CSIS-Courses.iml" />
+    </modules>
+  </component>
+</project>
