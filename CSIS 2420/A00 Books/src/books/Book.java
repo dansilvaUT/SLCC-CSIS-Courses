@@ -10,24 +10,24 @@ public class Book implements Comparable<Book> {
 
 
     /**
-     * @var title
+     * {@title String}
      */
     private String title;
 
     /**
-     * @var author
+     * {@author String}
      */
     private String author;
 
     /**
-     * @var int
+     * {@year int}
      */
     private int year;
 
     /**
-     * @param title
-     * @param author
-     * @param year
+     * @param title Title of book
+     * @param author Author of Book
+     * @param year Year book was released
      */
     public Book(String title, String author, int year) {
         this.title = title;
@@ -58,20 +58,25 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int compareTo(Book o) {
-        //TODO
-        return 0;
+
+        return this.getTitle().compareTo(o.getTitle());
     }
 
+    /**
+     * @param file Csv file that will be read in.
+     * @return List<Book>
+     */
     public static List<Book> getList(String file) {
         Scanner input = new Scanner(Book.class.getResourceAsStream("books.csv"));
         List<Book> bookList = new LinkedList<>();
-        while(input.hasNextLine()){
+        while (input.hasNextLine()) {
             String[] entry = input.nextLine().split(",");
-            if(entry.length == 3){
+            if (entry.length == 3) {
                 Book book = new Book(entry[0], entry[1], Integer.parseInt(entry[2]));
                 bookList.add(book);
             } else {
-                System.out.println("Problem reading in " + Arrays.toString(entry));
+                System.out.println("Problem reading in " +
+                        Arrays.toString(entry).replace("[", "\"").replace("]", "\""));
             }
         }
         return bookList;
@@ -82,6 +87,6 @@ public class Book implements Comparable<Book> {
      */
     @Override
     public String toString() {
-        return String.format("%s by %s (%d)", title, author, year);
+        return String.format("%s by %s (%d)", getTitle(), getAuthor(), getYear());
     }
 }
