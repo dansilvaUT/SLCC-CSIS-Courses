@@ -1,6 +1,7 @@
 /**
  * Student class that creates a student object
  * @author danielsilva
+ *CSIS 1410
  *
  */
 public class Student {
